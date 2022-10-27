@@ -29,6 +29,7 @@ function start() {
     else if((timeLocal) < 75) outputOfResults(timeLocal, 100);
     else if((timeLocal) < 100) outputOfResults(timeLocal, 75);
     else if((timeLocal) < 125) outputOfResults(timeLocal, 50);
+    else if((timeLocal) < 150) outputOfResults(timeLocal, 25);
     else if ((timeLocal) > 1000000 || i > 0) document.getElementById("secondsValue").innerHTML = "where are you hurrying??";
     else outputOfResults(timeLocal, 0);
      
